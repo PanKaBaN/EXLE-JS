@@ -1,4 +1,3 @@
-import './module';
-import './scss/index.scss';
+import "./styles/index.scss";
 
 console.log('sanya jopa')

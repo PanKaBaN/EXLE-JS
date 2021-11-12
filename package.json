@@ -4,29 +4,25 @@
   "description": "jsapp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack",
-    "build": "webpack --mode production"
+    "start": "webpack server",
+    "watch": "webpack --watch",
+    "build": "NODE_ENV=production webpack",
+    "build-dev": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PanKaBaN/EXLE-JS.git"
   },
-  "author": "PanKaBaN",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PanKaBaN/EXLE-JS/issues"
-  },
-  "homepage": "https://github.com/PanKaBaN/EXLE-JS#readme",
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^6.5.0",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.4.3",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.4.4",
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
     "webpack": "^5.61.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
   }
 }
