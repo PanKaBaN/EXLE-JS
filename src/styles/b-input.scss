@@ -1,0 +1,14 @@
+
+@import "variables";
+@import "mixins";
+
+.b-input {
+    &_name {
+        height: 48px;
+        width: 150px;
+    }
+    &_formula {
+        height: 30px;
+        width: 100%;
+    }
+}

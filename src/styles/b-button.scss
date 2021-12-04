@@ -1,0 +1,72 @@
+@import "variables";
+@import "mixins";
+
+.b-button { 
+    &_position {
+        &_header{
+            height: 48px;
+            width: 48px;
+            border: 2px solid black;
+            border-radius: 4px;
+            background-size: contain;
+            background-repeat: no-repeat; 
+        }    
+        &_toolbar {
+            height: 30px;
+            width: 30px;
+            border: 2px solid black;
+            border-radius: 4px;
+            margin-right: 10px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+            &:hover {
+                border-color: rgb(52, 194, 33);
+                box-shadow: 0 0 10px rgb(19, 18, 18);
+                height: 40px;
+                width: 40px;
+            }
+        }       
+    }        
+    
+    &_type {                
+        &_exit {
+            margin-left: 10px;
+            background-image: url('../img/exit.png');                                    
+        }                
+        &_delete {            
+            background-image: url('../img/delete.png');       
+        }   
+        &_align-right {            
+            background-image: url('../img/align-right.png');            
+        }    
+        &_align-left {            
+            background-image: url('../img/align-left.png');
+        }
+        &_align-сentre {            
+            background-image: url('../img/align-сentre.png');
+        }
+        &_fatty {            
+            background-image: url('../img/fatty.png');
+        }
+        &_italics {            
+            background-image: url('../img/italics.png');
+        }
+        &_italicscross-out {            
+            background-image: url('../img/italicscross-out.png');
+        }
+        &_emphasize {
+            margin-right: 300px;           
+            background-image: url('../img/emphasize.png');
+        } 
+        &_create-table {
+            display: block;
+            padding: 10px;
+            border-color: #575757;            
+            height: 52px;
+            width: 66px;
+            margin-left: 130px;            
+            background-color: White;
+        }      
+    }       
+}
