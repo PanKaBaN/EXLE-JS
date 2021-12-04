@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcot icon" href="favicon.ico">
+    <link rel="stylesheet" href="main.css">
+    <title>Pure JavaScript Exel</title>
+</head>
+<body>
+    <div class="content">        
+        <div class="header">
+            <div class="header__wrapper">
+                <div class="header__logo"></div>
+                <input class="b-input b-input_name" placeholder="новая таблица"> 
+            </div>
+            <div class="header__wrapper">
+                <div class="b-button b-button_position_header b-button_type_delete"></div>
+                <div class="b-button b-button_position_header b-button_type_exit"></div>
+            </div>
+        </div>
+
+        <div class="toolbar">
+            <div class="b-button b-button_position_toolbar b-button_type_align-right"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_align-left"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_align-сentre"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_fatty"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_italics"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_italicscross-out"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_emphasize"></div>
+        </div>
+        <div class="formula">
+            <div class="formula__icon"></div>
+            <input class="b-input b-input_formula">
+        </div>
+        <div class="table"> 
+            <div class="table__row">
+                <div class="table__row-decore"></div>       
+                <div class="table__data-titles">
+                    <div class="table__data-title">A</div>
+                    <div class="table__data-title">B</div>
+                    <div class="table__data-title">C</div>
+                    <div class="table__data-title">D</div>
+                </div>                
+            </div>
+            <div class="table__row">
+                <div class="table__data-number">1</div>       
+                <div class="table__data-wrapper">
+                    <div class="table__data"></div>
+                    <div class="table__data"></div>
+                    <div class="table__data"></div>
+                    <div class="table__data"></div>
+                </div>                
+            </div>
+            <div class="table__row">
+                <div class="table__data-number">2</div>       
+                <div class="table__data-wrapper">
+                    <div class="table__data"></div>
+                    <div class="table__data"></div>
+                    <div class="table__data"></div>
+                    <div class="table__data"></div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src='main.js'></script>   
+</body>
+</html>
